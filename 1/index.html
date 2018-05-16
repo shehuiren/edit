@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+<head>
+  <title>array</title>
+  <meta charset= 'utf-8'>
+</head>
+<body>
+  <script>
+    var scores =[60, 90, 60, 14, 54, 50, 52, 54, 
+                 48, 69, 34, 55, 51, 82, 44, 66,];
+
+    var min = scores[0];
+    var item;
+    for (var i = 1; i < scores.lenght ; i++){
+         document.write(scores[i] + "<br>");
+
+      if (scores[i] < min){
+        min = scores[i];
+      }
+    }
+
+    document.write("数组中最大的数： " + max +  "下标是： "  +  item + "<br>")
+   </script>
+ </body>
+</html>
